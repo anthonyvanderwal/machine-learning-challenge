@@ -12,3 +12,9 @@ UWA Boot Camp Data Analytics - homework assignment 21 - Machine Learning - Exopl
 - [notebook](./model1_svc.ipynb/) with data engineering and model optimisation.
 - [model](./analysis/anthony_vanderwal_svc.sav) with the 'optimum' parameters from a grid search.
 - [confusion matrix](./analysis/anthony_vanderwal_svc.png) of test dataset.
+
+---
+### Exoplanet Classification - Logistic Regression Model
+- [notebook](./model2_logreg.ipynb/) with data engineering and model optimisation.
+- [model](./analysis/anthony_vanderwal_logreg.sav) with the 'optimum' parameters from a grid search.
+- [confusion matrix](./analysis/anthony_vanderwal_logreg.png) of test dataset.
