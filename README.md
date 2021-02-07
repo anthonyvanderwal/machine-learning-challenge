@@ -18,3 +18,10 @@ UWA Boot Camp Data Analytics - homework assignment 21 - Machine Learning - Exopl
 - [notebook](./model2_logreg.ipynb/) with data engineering and model optimisation.
 - [model](./analysis/anthony_vanderwal_logreg.sav) with the 'optimum' parameters from a grid search.
 - [confusion matrix](./analysis/anthony_vanderwal_logreg.png) of test dataset.
+
+
+---
+### Summary
+- Data engineering included dropping meaningless features (right ascension and declination), scaling (MinMaxScaler), and selection (reduce features by 50% using SelectKBest with chi2 criteria).
+- Both models exhibited improved accuracy (approx. 4 percentage points) with parameter fine tuning using the GridSearchCV module.
+- There are only marginal differences between the models' performance when subjected to the test dataset.
